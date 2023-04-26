@@ -8,8 +8,8 @@ public fun TextField(
     enabled: Boolean,
     readOnly: Boolean,
     textStyle: TextStyle,
-    label: @Composable() (() -> Unit)?,
-    placeholder: @Composable() (() -> Unit)?,  在键入函数时最好是打上大括号，这样不容易出错。
+    label: @Composable() (() -> Unit)?,  // {标签} 打上大括号之后不容易出错。
+    placeholder: @Composable() (() -> Unit)?,  // 在键入函数时最好是打上大括号，这样不容易出错。
     leadingIcon: @Composable() (() -> Unit)?,
     trailingIcon: @Composable() (() -> Unit)?,
     supportingText: @Composable() (() -> Unit)?,
