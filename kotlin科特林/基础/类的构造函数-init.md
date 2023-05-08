@@ -6,6 +6,8 @@ class InitOrderDemo(name: String)-(name: String)：是一个构造函数。
 class InitOrderDemo(name: String){
     // .also(::println)能使用println的
     val firstProperty = "First propert: $name".also(::println)
+    
+    // 初始化块
     // 相当于构造函数中的代码，可以直接被执行。
     init {
         println("first initializer block thatprints $name")
